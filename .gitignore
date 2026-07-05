@@ -1,0 +1,20 @@
+# Environment variables / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Vector store / embeddings cache (usually large & regenerable)
+chroma_db/
+*.faiss
+*.pkl
+
+# OS files
+.DS_Store

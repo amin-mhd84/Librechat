@@ -1,0 +1,24 @@
+# --- LangChain core & integrations ---
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+
+# --- Document loaders ---
+pypdfium2                # for PyPDFium2Loader (reading the PDF book)
+beautifulsoup4           # for BSHTMLLoader (reading HTML files)
+lxml                      # parser backend used by BeautifulSoup / bs4
+wikipedia                 # for WikipediaLoader
+requests                  # for WebBaseLoader / general HTTP requests
+
+# --- Embeddings & vector store ---
+sentence-transformers     # backend for HuggingFaceEmbeddings
+chromadb                  # for the Chroma vector store
+
+# --- Retrieval ---
+rank_bm25                 # for BM25Retriever
+
+# --- Utilities ---
+pydantic
+python-dotenv              # to load API keys from a .env file
